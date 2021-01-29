@@ -1,0 +1,92 @@
+html {
+  font-size: 0.8rem;
+}
+
+body {
+  font-family: BlinkMacSystemFont, "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  width: 100%;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+  text-decoration: none;
+}
+a:visited {
+  color: #74638f;
+}
+main {
+  background-color: #EEEEEE;
+  margin: 2rem 0.5rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+}
+
+.img-div {
+  background: white;
+  margin: 0;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+}
+.img-responsive {
+  margin-top: 2rem;
+}
+#img-caption {
+  margin: 1rem 0 0.4rem 0;
+}
+.tribute-info {
+  margin-right: 1rem;
+}
+@media (max-width: 500px) {
+  #main {
+    margin: 0;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+.headline {
+  margin: 3rem 0;
+}
+ul {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+li {
+  margin: 1rem 0;
+}
+blockquote {
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  text-align: left;
+}
